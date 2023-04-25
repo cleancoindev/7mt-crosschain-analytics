@@ -3,10 +3,10 @@ import streamlit as st
 from PIL import Image
 
 # Confit
-st.set_page_config(page_title='Cross Chain Monitoring Tool', page_icon=':bar_chart:', layout='wide')
+st.set_page_config(page_title='7 Mountain Trust Cross Chain Monitoring Tool', page_icon=':bar_chart:', layout='wide')
 
 # Title
-st.title('Cross Chain Monitoring Tool')
+st.title('7 Mountain Trust Cross Chain Monitoring Tool')
 
 # Content
 c1, c2, c3, c4, c5, c6, c7, c8, c9, c10, c11, c12, c13, c14 = st.columns(14)
@@ -27,6 +27,8 @@ c14.image(Image.open('images/axelar-logo.png'))
 
 st.write(
     """
+    Seven Mountain Trust Analytics Tool for Users is here for your viewing needs and pleasure.
+
     The crypto industry continues to progress and its development has never stopped. Contributors
     of each blockchain keep developing each segment of the industry and the whole crypto ecosystem.
     This tool is designed to allow viewers to journey into the world of crypto ecosystems of some
@@ -46,11 +48,10 @@ st.write(
 st.subheader('Methodology')
 st.write(
     """
-    The data for this cross-chain comparison were selected from the [**Flipside Crypto**](https://flipsidecrypto.xyz)
+    The data for this cross-chain comparison were selected via
     data platform by using its **REST API**. These queries are currently set to **re-run every 24 hours** to cover the latest
     data and are imported as a JSON file directly to each page. The data were selected with a **1 day delay** for all
-    blockchains to be in sync with one another. The codes for this tool are saved and accessible in its 
-    [**GitHub Repository**](https://github.com/alitaslimi/cross-chain-monitoring).
+    blockchains to be in sync with one another.
 
     It is worth mentioning that a considerable portion of the data used for this tool was manually decoded from the raw
     transaction data on some of the blockchains. Besides that, the names of addresses, DEXs, collections, etc. are also
@@ -72,11 +73,3 @@ st.write(
     also critics with me.
     """
 )
-
-c1, c2, c3 = st.columns(3)
-with c1:
-    st.info('**Data Analyst: [@AliTslm](https://twitter.com/AliTslm)**', icon="💡")
-with c2:
-    st.info('**GitHub: [@alitaslimi](https://github.com/alitaslimi)**', icon="💻")
-with c3:
-    st.info('**Data: [Flipside Crypto](https://flipsidecrypto.xyz)**', icon="🧠")
