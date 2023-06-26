@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.set_page_config(
-    page_title="7MT CrossChain Swap",
+    page_title="7MT Marketplace Zero",
     page_icon="👋",
 )
 
