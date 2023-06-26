@@ -5,7 +5,7 @@ st.set_page_config(
     page_icon="👋",
 )
 
-st.write("# Welcome to 7MT Cross Chain Swap Information Hub! 👋")
+st.write("# Welcome to 7MT Marketplace Zero! 👋")
 
 st.markdown(
     """
